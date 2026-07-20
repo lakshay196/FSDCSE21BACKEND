@@ -1,0 +1,9 @@
+dY 1:
+git command 
+.git status 
+.git init
+.git add .
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/lakshay196/FSDCSE21BACKEND.git
+
