@@ -1,0 +1,13 @@
+{
+  "name": "product-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small product manager: Express API and a React page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

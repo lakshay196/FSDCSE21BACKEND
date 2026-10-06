@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  background: #eef2f5;
+  color: #14213d;
+}
+
+main {
+  width: min(680px, 92vw);
+  margin: 32px auto;
+}
+
+form,
+li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+form,
+ul {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+input,
+button {
+  font: inherit;
+  padding: 8px 10px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 16px;
+}
+
+li {
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #d9e2ec;
+}
+
+.error {
+  color: #9b1c1c;
+}
